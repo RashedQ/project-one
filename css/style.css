@@ -1,0 +1,155 @@
+img	{
+	max-width: 100%;
+}
+body{
+	margin: 0;
+}
+
+
+
+header{
+box-shadow: 0px 15px 25px #a29d9d1c;
+}
+.wrepper{
+    width: 1050px;
+    margin: 0 auto;
+}
+.header-section{
+    overflow: hidden;
+    padding: 15px 10px;
+    display: block;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+	margin: 10px;
+   
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: right;
+}
+ul a{text-decoration: none;
+	font-size: 20px;
+	display: inline-block;
+	color: #3b506c;}
+ul a li{
+    padding: 20px;
+    display: block;
+    margin: 0;
+}
+ul a li:hover{
+	color: #0c66ff;
+}
+
+
+
+
+.about-section{
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.about-section h2{
+    font-size: 65px;
+    margin: 25px;
+    color: #3b506c;
+}
+.about-section h2 span{
+	color: #0c66ff;
+}
+.about-section h2 span:hover{
+	color: #3b506c
+}
+.about-section p{
+    font-size: 20px;
+    margin: 0px;
+    color: #70767d;
+}
+
+
+.image-section{
+	max-width: 750px;
+	margin: 25px auto;
+}
+.image-section img{}
+
+
+
+.colum-section{
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+.colum-section .colum1{
+    text-align: right;
+    padding: 20px;
+}
+.colum-section .colum1 h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0px;
+}
+.colum-section .colum1 h2 span{
+    color: red;
+}
+.colum-section .colum1 p{
+    font-size: 12px;
+    margin: 0;
+    color: #3b506c;
+}
+.colum2 {
+    margin: 0;
+    padding: 20px;
+}
+.colum2 h2{
+    font-size: 40px;
+    margin: 0;
+    color: #3b506c;
+}
+
+
+
+.product{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.pinfo{
+    padding: 20px;
+    border-radius: 8px;
+}
+.pinfo  img{
+	height: 350px;
+}
+.pinfo h3{
+    font-size: 21px;
+    color: #3f3d56;
+}
+.pinfo p{
+    margin-bottom: 10px;
+	font-size: 16px;
+	text-align: justify;
+	color: #3b506c;
+    margin: 0;
+}
+.red{
+	background-color: #FDEBED;
+}
+.green{
+	background-color: #EBF9F4;
+}
+.orange{
+	background-color: #FFF7E8;
+}
